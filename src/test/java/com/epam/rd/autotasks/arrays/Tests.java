@@ -12,7 +12,7 @@ public class Tests {
         int[] array = new int[]{1, -3, 2, 4, 3, 5, 12, 8};
         int[] expected = new int[]{-3, 2, 3, 5, 8};
 
-        int[] actual = LocalMaximaRemove.remove(array);
+        int[] actual = LocalMaximaRemove.removeLocalMaxima(array);
 
         assertArrayEquals(expected, actual);
     }
