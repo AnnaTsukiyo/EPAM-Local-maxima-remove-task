@@ -1,3 +1,6 @@
+package com.epam.rd.autotasks.arrays;
+
+import com.epam.rd.autotasks.arrays.LocalMaximaRemove;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
