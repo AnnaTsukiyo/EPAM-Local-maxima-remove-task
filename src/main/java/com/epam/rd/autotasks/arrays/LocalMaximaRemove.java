@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class LocalMaximaRemove {
 
     public static void main(String[] args) {
-        int[] array = new int[10];
+        int[] array = new int[]{18, 1, 3, 6, 7, -5};
 
         System.out.println(Arrays.toString(removeLocalMaxima(array)));
     }
