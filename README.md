@@ -10,3 +10,8 @@ Local maxima is an element that is bigger that any of its neighbour elements.
 - If the array does not have any local maxima, then it should be returned without changes.
 
 <i>Solution may contain usage of Arrays.* methods.</i>
+
+Class [com.epam.rd.autotasks.arrays.LocalMaximaRemove](src/main/java/com/epam/rd/autotasks/arrays/LocalMaximaRemove.java)
+ contains <b>public static void main(String[] args)</b>. 
+ <br>An array is created there and a result of the removeLocalMaxima method called for it is printed in console.
+ <br>Size and values of the array can be changed for testing of the solution.
