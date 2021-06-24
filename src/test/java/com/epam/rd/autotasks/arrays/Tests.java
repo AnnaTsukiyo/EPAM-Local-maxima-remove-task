@@ -64,11 +64,11 @@ public class Tests {
         assertArrayEquals(array, actual);
 
         array = new int[500];
-        Arrays.fill(array, 0, 99, 150);
-        Arrays.fill(array, 100, 199, 50);
-        Arrays.fill(array, 200, 299, 15);
-        Arrays.fill(array, 300, 399, 55);
-        Arrays.fill(array, 400, 499, 500);
+        Arrays.fill(array, 0, 100, 150);
+        Arrays.fill(array, 100, 200, 50);
+        Arrays.fill(array, 200, 300, 15);
+        Arrays.fill(array, 300, 400, 55);
+        Arrays.fill(array, 400, 500, 500);
         actual = LocalMaximaRemove.removeLocalMaxima(array);
 
         assertArrayEquals(array, actual);
