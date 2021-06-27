@@ -12,6 +12,8 @@ public class LocalMaximaRemove {
 
     public static int[] removeLocalMaxima(int[] array){
 
+        //put your code here
+
         throw new UnsupportedOperationException();
     }
 }
