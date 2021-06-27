@@ -15,3 +15,9 @@ The original array must not be changed.
 Class [com.epam.rd.autotasks.arrays.LocalMaximaRemove](src/main/java/com/epam/rd/autotasks/arrays/LocalMaximaRemove.java)
  contains <b>public static void main(String[] args)</b>. 
  <br>You may use it to check your solution.
+ 
+ Example:
+ <br>Input array:
+ <br>`[18, 1, 3, 6, 7, -5]`
+ <br>Output array:
+ <br>`[1, 3, 6, -5]`
