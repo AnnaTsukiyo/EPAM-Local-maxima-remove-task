@@ -1,17 +1,17 @@
 # Local maxima remove
 Implement [com.epam.rd.autotasks.arrays.LocalMaximaRemove](src/main/java/com/epam/rd/autotasks/arrays/LocalMaximaRemove.java) method:
-<br><b>removeLocalMaxima(int[] array)</b> - returns a given array with all local maxima removed in it.
+<br><b>removeLocalMaxima(int[] array)</b> - returns a copy of a given array with all local maxima removed in it.
+The original array must not be changed.
 
-Local maxima is an element that is bigger that any of its neighbour elements.
-<br>Local maxima in the <b>original</b> array should be removed.
+<b>Local maximum</b> is an element that is bigger that any of its neighbour elements.
+<br>You should remove elements that are local maxima in the original array.
 
 - The size of given array is guaranteed to be more than 1.
 - Given array is guaranteed not to be null.
-- If the array does not have any local maxima, then it should be returned without changes.
+- If the array does not have any local maxima, then you should return its copy without changes.
 
-<i>Solution may contain usage of Arrays.* methods.</i>
+<i>Solution may contain usage of java.util.Arrays.* methods.</i>
 
 Class [com.epam.rd.autotasks.arrays.LocalMaximaRemove](src/main/java/com/epam/rd/autotasks/arrays/LocalMaximaRemove.java)
  contains <b>public static void main(String[] args)</b>. 
- <br>An array is created there and a result of the removeLocalMaxima method called for it is printed in console.
- <br>Size and values of the array can be changed for testing of the solution.
+ <br>You may use it to check your solution.
