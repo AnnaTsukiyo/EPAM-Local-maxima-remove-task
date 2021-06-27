@@ -1,7 +1,3 @@
-/.idea/*
-/target/*
-LocalMaximaRemove.iml
-
 ### Maven template
 target/
 pom.xml.tag
