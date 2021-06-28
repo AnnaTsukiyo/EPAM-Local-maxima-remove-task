@@ -7,7 +7,7 @@ The original array must not be changed.
 <br>You should remove elements that are local maxima in the original array.
 
 - The size of given array is guaranteed to be more than 1.
-- Given array is guaranteed not to be null.
+- Given array is guaranteed to be not null.
 - If the array has no local maxima, then you should return its copy without changes.
 
 <i>Solution may contain usage of java.util.Arrays.* methods.</i>
