@@ -22,6 +22,7 @@ public class Tests {
             expected = new int[]{-3, 2, 3, 5, 8};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{-3, 2, 4, 3, 5, 12, 8}, array);
             assertArrayEquals(expected, actual);
         }
 
@@ -30,6 +31,7 @@ public class Tests {
             expected = new int[]{-3, 2, 4, 5, 8};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{-3, 2, 4, 13, 5, 12, 8}, array);
             assertArrayEquals(expected, actual);
         }
 
@@ -38,6 +40,7 @@ public class Tests {
             expected = new int[]{1, 3, 6, -5};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{18, 1, 3, 6, 7, -5}, array);
             assertArrayEquals(expected, actual);
         }
 
@@ -46,6 +49,7 @@ public class Tests {
             expected = new int[]{-18, 3, 6, 7};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{-18, 21, 3, 6, 7, 65}, array);
             assertArrayEquals(expected, actual);
         }
 
@@ -82,6 +86,7 @@ public class Tests {
             expected = new int[]{0};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{100, 0}, array);
             assertArrayEquals(expected, actual);
         }
 
@@ -90,6 +95,7 @@ public class Tests {
             expected = new int[]{10};
             actual = LocalMaximaRemove.removeLocalMaxima(array);
 
+            assertArrayEquals(new int[]{10, 900}, array);
             assertArrayEquals(expected, actual);
         }
 
