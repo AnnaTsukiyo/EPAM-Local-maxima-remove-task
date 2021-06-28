@@ -8,7 +8,7 @@ The original array must not be changed.
 
 - The size of given array is guaranteed to be more than 1.
 - Given array is guaranteed not to be null.
-- If the array does not have any local maxima, then you should return its copy without changes.
+- If the array has no local maxima, then you should return its copy without changes.
 
 <i>Solution may contain usage of java.util.Arrays.* methods.</i>
 
@@ -21,3 +21,8 @@ Class [com.epam.rd.autotasks.arrays.LocalMaximaRemove](src/main/java/com/epam/rd
  <br>`[18, 1, 3, 6, 7, -5]`
  <br>Output array:
  <br>`[1, 3, 6, -5]`
+ 
+ If you want ro run tests, you need to install 
+ [maven](https://maven.apache.org/install.html) and run the below command
+ in terminal from your project directory:
+  <br>`mvn clean test`
